@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800&family=Poppins:wght@100;200;300;400;600;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #eee;
+}
+
+.container 
+{
+    width: 100vw;
+    height: 100vh;
+    background: #6C4A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box    
+{
+    padding: 16px 32px;
+    background: #eee;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.box .thank-detail
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+.thank-detail .thank 
+{
+    color: #6C4A4A;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box .thank-action 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-action .btn 
+{
+    background: #6C4A4A;
+    padding: 6px 12px;
+    color: #eee;
+    font-size: 14px;
+    border: 2px solid #6C4A4A;
+    outline: none;
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.thank-action .btn:hover 
+{
+    transform: scale(1.1,1.1);
+}
+
+.thank-action .btn:active 
+{
+    transform: unset;
+}
